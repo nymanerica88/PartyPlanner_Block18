@@ -25,6 +25,9 @@ function getAllParties() {
     { id: 1, name: "Purple Pixies" },
     { id: 2, name: "Nineties Nostalgia" },
     { id: 3, name: "Rouge Ranch Rodeo" },
+    { id: 4, name: "Popcorn Poppers" },
+    { id: 5, name: "Frozen & Free Fridays" },
+    { id: 6, name: "Yellow Brick Bows" },
   ];
 }
 
@@ -53,6 +56,27 @@ function getPartyById(id) {
       description: "Ranch Themed Party with Horseback Riding Available",
       location: "Austin, TX",
     },
+    4: {
+      id: 4,
+      name: "Popcorn Poppers",
+      date: "1-24-2026",
+      description: "Movie Themed House Party",
+      location: "Valparaiso, IN",
+    },
+    5: {
+      id: 5,
+      name: "Frozen & Free Fridays",
+      date: "02-06-2026 & 2-13-2026",
+      description: "Slurpee Parties",
+      location: "Denver, CO",
+    },
+    6: {
+      id: 6,
+      name: "Yellow Brick Bows",
+      date: "12-21-2025",
+      description: "Cosplay Party for the Wizard of Oz",
+      location: "Austin, TX",
+    },
   };
   //returns the party details using the id
   return details[id];
@@ -79,7 +103,7 @@ function PartyList() {
     //creates a variable named li that creates a list item element
     //for each party
     const li = document.createElement("li");
-    //createsa a variable named btn that creates a button element
+    //creates a variable named btn that creates a button element
     //for each party
     const btn = document.createElement("button");
     //sets the button text content equal to the party name
@@ -118,7 +142,7 @@ function PartyDetails() {
   //appends the title to the div
   div.appendChild(title);
 
-  //is there isn't a value for the selectedParty
+  //if there isn't a value for the selectedParty
   if (selectedParty === null) {
     //creates a variable called msg that creates a pTag element
     const msg = document.createElement("p");
