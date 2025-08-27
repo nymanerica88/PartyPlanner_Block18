@@ -31,3 +31,9 @@ If you're done early, try to implement one or more of the following features:
 ## Submission
 
 Please submit the link to your public GitHub repository.
+
+## Please note
+
+I went through the entire answer key to ensure that I understood all of the coding, as
+I struggled with completing the homework assignment. The idxsolution.js is just the completely notated
+answer key for comprehension and is not connected to the actual HTML. Thanks - Erica
