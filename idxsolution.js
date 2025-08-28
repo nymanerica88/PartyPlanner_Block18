@@ -11,7 +11,7 @@
 //saves the base API in a variable named BASE
 const BASE = "https://fsa-crud-2aa9294fe819.herokuapp.com/api";
 //empty string placeholder for the cohort name
-const COHORT = ""; // Make sure to change this!
+const COHORT = "/2506-FTB-CT-WEB-PT"; // Make sure to change this!
 //joins the BASE URL with the COHORT string to create a full API
 const API = BASE + COHORT;
 
